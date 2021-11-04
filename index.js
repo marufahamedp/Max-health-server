@@ -100,8 +100,8 @@ async function run() {
 run().catch(console.dir);
 
 app.get('/', (req, res) => {
-    res.send('Running tourfaster server');
+    res.send('Running maxhealth server');
 });
 app.listen(port, () => {
-    console.log('Running tourfaster server on port', port);
+    console.log('Running maxhealth server on port', port);
 })
